@@ -124,7 +124,7 @@ sub vk_download{
                                                     }
                                                     else{
                                                       $_->{title} = encode('utf8', $_->{title});
-                                                      print $inform . '.................. downloaded'."\n";
+                                                      print $_->{title} . '.................. downloaded'."\n";
                                                     }                
                                                   $pm->finish; # do the exit in the child process
                                                    
